@@ -1,0 +1,32 @@
+.publications-container {
+  padding-top: 70px; 
+  display: flex;
+  justify-content: center;
+}
+
+.publications-content {
+  display: block;
+  justify-content: center; 
+  align-items: center; 
+  min-height: calc(100vh - 70px);
+  width: 100%;
+  max-width: 800px; 
+}
+
+.publication {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #f9f9f9;
+  max-width: 100%; 
+  width: 100%;
+}
+
+.publication h2 {
+  margin-top: 0;
+}
+
+.publication footer {
+  text-align: right;
+}
